@@ -1,0 +1,327 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/nikitasinaga/Algoritma-Nikita/blob/main/praktikum%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range (3):\n",
+        "  print(\"Belajar Python\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xjMSIOH5gZqP",
+        "outputId": "98fdb8d6-9442-44d2-aa48-b65a501a016a"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Belajar Python\n",
+            "Belajar Python\n",
+            "Belajar Python\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for angka in range (1,6) :\n",
+        "  print (angka)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cNWJeWViiG4n",
+        "outputId": "76680adb-2090-485a-c7b5-2e114ba760cb"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "i = 1\n",
+        "while i <= 3:\n",
+        "  print (\"Angka ke-\", i)\n",
+        "  i += 1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YMBnh9eNiYDn",
+        "outputId": "1e4d5e56-fdaa-4419-e0a3-106d67f25025"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Angka ke- 1\n",
+            "Angka ke- 2\n",
+            "Angka ke- 3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range (1,10):\n",
+        "  if i == 5:\n",
+        "    continue\n",
+        "  if i ==8:\n",
+        "    break\n",
+        "  print (i)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dOatBROciYeZ",
+        "outputId": "0b6f4f7e-f721-428c-a7eb-57d280fa2550"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "6\n",
+            "7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for i in range (1,10):\n",
+        "  if i == 5:\n",
+        "    continue\n",
+        "  if i == 8:\n",
+        "    break\n",
+        "  print (i)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XovgYY2OiYui",
+        "outputId": "b7dd84fa-f2cb-4999-a795-78ea3aa8446c"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "6\n",
+            "7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nilai = 80\n",
+        "if nilai >= 75:\n",
+        "  print (\"lulus\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HqMTbVbYlSFY",
+        "outputId": "864aedbe-5073-48f7-a780-7cc5734dae82"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "lulus\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nilai = 60\n",
+        "if nilai >=75 :\n",
+        "  print (\"lulus\")\n",
+        "else :\n",
+        "  print (\"Tidak lulus\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jGbndYJNlR5o",
+        "outputId": "b66d80a4-7c3d-49b2-ab53-6144739fabef"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Tidak lulus\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "VYRJ6z2nly7J"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nilai = 85\n",
+        "if nilai >= 90:\n",
+        "  print (\"A\")\n",
+        "elif nilai >= 80 :\n",
+        "  print (\"B\")\n",
+        "elif nilai>= 70 :\n",
+        "  print (\"C\")\n",
+        "else :\n",
+        "  print (\"D\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "n6T1SmwYmMvg",
+        "outputId": "f873c1ca-bc31-4f7f-fdaf-c07f6d7a2bf7"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "B\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Umur = 20\n",
+        "punya_ktp = True\n",
+        "\n",
+        "if Umur >= 17 :\n",
+        "  if punya_ktp:\n",
+        "    print(\"Boleh memilih\")\n",
+        "  else:\n",
+        "    print(\"Belum punya ktp\")\n",
+        "else :\n",
+        "  print(\"Belum cukup Umur\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LuB02DpUmu7w",
+        "outputId": "4178bcfc-53e7-40b7-9a6a-170360fb3623"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Boleh memilih\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Usia = 17\n",
+        "if Usia > 18:\n",
+        "  print (\"Dewasa\")\n",
+        "elif Usia > 13 < 18 :\n",
+        "  print (\"Remaja\")\n",
+        "elif Usia < 13 :\n",
+        "  print (\"Anak anak\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tsUoHPBQmukK",
+        "outputId": "9afb43da-6c7d-4a34-fa45-23b8e95b675a"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Remaja\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome To Colab",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
